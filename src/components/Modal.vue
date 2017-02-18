@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     closeModal: function() {
-      this.isActive = false;
+      this.$emit('close')
     }
   }
 }
