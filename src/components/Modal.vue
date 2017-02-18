@@ -66,14 +66,10 @@ export default {
   'sDefense',
   'isActive'
   ],
-  data() {
-    return {
-      isActive: true
-    }
-  },
   methods: {
     closeModal: function() {
       this.$emit('close')
+      console.log('emit')
     }
   }
 }

@@ -2,12 +2,12 @@
 
 
 
-  <div @click="activate" class="column is-one-quarter-desktop is-one-quarter-tablet is-half-mobile tileAdjust">
-    <div class="notification">
+  <div class="column is-one-quarter-desktop is-one-quarter-tablet is-half-mobile tileAdjust">
+    <div  @click="activate"  class="notification">
       <figure class="image">
         <img :src="image" />
         <hr />
-        <p class="subtitle has-text-centered">{{ name }}</p>
+        <p class="subtitle has-text-centered"><strong>{{ name }}</strong></p>
       </figure>
     </div>
     <modal
@@ -59,10 +59,11 @@ export default {
   },
   methods: {
       activate: function() {
-        this.isActive = true;
+        this.isActive = true
       },
       deactivate: function() {
-        this.isActive = false;
+        this.isActive = false
+        console.log('deactivate')
       }
 
 
