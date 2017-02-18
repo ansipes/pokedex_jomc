@@ -1,0 +1,64 @@
+.circle_red {
+      width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border: 2px solid white;
+      background: #fb0505;
+      margin: 10px;
+}
+.circle_yellow {
+      width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border: 2px solid white;
+      background: #fbfb05;
+      margin: 10px;
+}
+.circle_green {
+      width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border: 2px solid white;
+      background: #50fb05;
+      margin: 10px;
+}
+.circle_blue {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      border: 2px solid white;
+      background: #05fbfb;
+      margin: 10px 20px 20px 20px;
+}
+
+.tileAdjust {
+    padding: 25px 50px 25px 50px;
+}
+
+@media (max-width: 999px) {
+    .tileAdjust {
+        padding:  20px;
+    }
+}
+@media (max-width: 768px) {
+    .tileAdjust {
+      padding: 3px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pokeImage {
+      padding: 10px;
+    }
+    .title.is-2 {
+      font-size: 1.75rem !important;
+    }
+}
